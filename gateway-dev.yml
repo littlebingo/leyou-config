@@ -4,10 +4,10 @@ spring:
   application:
     name: api-gateway
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.19.121
+    virtual-host: /
+    username: admin
+    password: 123456
+    host: 127.0.0.1
 eureka:
   client:
     service-url:
